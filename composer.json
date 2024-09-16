@@ -1,0 +1,24 @@
+{
+    "name": "walnut/lib_db",
+    "authors": [
+        {
+            "name": "Marian Kostadinov",
+            "email": "manchokapitancho@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Walnut\\Lib\\Db\\": "src/",
+			"Walnut\\Lib\\Test\\Db\\": "tests/"
+		}
+	},
+	"require": {
+		"php": ">=8.2",
+		"walnut/lib_jsonserializer": ">=0.0.1",
+		"ext-pdo": "*"
+	},
+	"require-dev": {
+		"vimeo/psalm": ">=4.23.0",
+		"phpunit/phpunit": ">=9.5.20"
+	}
+}
